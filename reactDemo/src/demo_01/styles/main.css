@@ -1,0 +1,27 @@
+
+.demo1{
+  width:800px;
+  height:500px;
+  padding:10px;
+}
+.demo1_comment{
+  width:800px;
+  height:500px;
+  border: 1px solid #ddd;
+  margin: 0 auto;
+}
+.demo1_comment_display{
+  width:500px;
+  height:300px;
+  margin: 10px auto;
+}
+.demo1_comment_input{
+  width:400px;
+  height:40px;
+  margin: 10px auto;
+}
+.demo1_comment_btn{
+  width:100px;
+  height:40px;
+  margin: 10px auto;
+}
