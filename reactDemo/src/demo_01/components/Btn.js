@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { getAllContent } from '../redux/action'
-
-
 class Button extends Component {
   constructor(props) {
     super(props);
@@ -22,10 +20,6 @@ class Button extends Component {
       return;
     }
     allContent.push(inputContent);
-    //allContent = allContent.concat();
-    //console.log(allContent);
-    //allContent=[1,23,2];
-    //this.setState({ allContent:allContent });
     dispatch(getAllContent(allContent));
   }
 }

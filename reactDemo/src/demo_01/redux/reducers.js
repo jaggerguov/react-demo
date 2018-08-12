@@ -15,7 +15,7 @@ function getInputContent(state = '', action) {
 function getAllContent(state = [], action) {
   switch (action.type) {
     case AllCONTENT:
-    return action.allContent.concat()
+    return action.allContent.concat() //易错点
     default:
       return state
   }
