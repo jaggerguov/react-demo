@@ -1,6 +1,6 @@
  
  
-
+基于openlayers的地图js库的热力图使用方法：
 import HeatMap from './heatMap/HeatMap'
 <HeatMap options={options}/>
 
