@@ -1,12 +1,12 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import { Provider } from 'react-redux'
-import { createStore } from 'redux'
-import reducers from './redux/rootReducer'
-import registerServiceWorker from './registerServiceWorker'
-import Demo1 from './demo_01/main'
-import HeatMap from './heatMap/HeatMap'
+ 
+ 
 
+import HeatMap from './heatMap/HeatMap'
+<HeatMap options={options}/>
+
+ /**
+     * 接受的参数
+     */ 
 
 let options={
   target:"heatMap",                                          //地图挂载Dom节点的id
@@ -26,12 +26,3 @@ let options={
          {coordinate:[114.098422,22.655032],count:5}
       ]                                   
 } 
-const store = createStore(reducers)
-
-ReactDOM.render(
-  <Provider store={store}>
-    <HeatMap options={options}/>
-  </Provider>,
-  document.getElementById('root')
-)
-registerServiceWorker();
